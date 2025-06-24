@@ -21,7 +21,49 @@ Whether you're applying for a software engineering role, a data science position
 - **JSON + Text Export**: Save analysis results in structured or readable format.
 
 ---
+## Interface Overview
 
+Below is the PrepMe user interface:
+
+![PrepMe Screenshot](ui.jpg)
+
+### Interface Components Explained
+
+1. **Job Posting URL**  
+   Input field where users paste the URL of a job listing (e.g. from Google Careers, LinkedIn, etc.).
+
+2. **Portfolio CSV File**  
+   Input field to browse and load a CSV file containing the user's skills and experience.  
+   - A sample CSV can be generated using the "Create Sample CSV" button.
+   - It should contain a 'Technology' field.
+
+3. **Analyze Job**  
+   Starts the job analysis process:
+   - Fetches job details from the URL.
+   - Matches it with skills in the portfolio.
+   - Generates interview questions and preparation tips using a language model.
+
+4. **Clear Output**  
+   Clears the output window.
+
+5. **Progress Bar**  
+   Shows analysis status while the job is being processed.
+
+6. **Status Label**  
+   Displays the current status of the application (e.g. Ready, Processing...).
+
+7. **Analysis Results**  
+   Displays structured output including:
+   - Role, company, and experience level
+   - Skills match percentage
+   - Matching skills
+   - Interview questions (technical, behavioral, and role-specific)
+   - Preparation tips
+
+8. **Save Results**  
+   Allows exporting results to a `.json` or `.txt` file.
+
+---
 You can now scroll down to see [Setup Instructions](#setup-instructions) to get started.
 ---
 
