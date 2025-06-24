@@ -1,12 +1,28 @@
 # PrepMe: AI-Powered Job Analyzer and Interview Preparation Tool
 
-PrepMe is a GUI-based Python application that helps users:
-- Analyze job postings from URLs
-- Match them with their skills and portfolio (CSV file)
-- Generate custom interview questions and preparation tips using LLMs
+**PrepMe** is an intelligent desktop application that assists job seekers in preparing for technical and behavioral interviews. It combines automated web scraping with portfolio-based matching and generative AI to provide:
 
-It uses a large language model via Groq, with the ability to scrape static and JavaScript-rendered job listings using Selenium + Edge WebDriver.
+- Tailored interview questions
+- Skill-gap analysis
+- Customized preparation tips
 
+Whether you're applying for a software engineering role, a data science position, or another tech career, PrepMe helps bridge the gap between your resume and the job description.
+
+### Key Features
+
+- **Job Scraping**: Automatically extracts job descriptions from public job listing URLs (supports both static and JavaScript-rendered pages using Selenium + Edge).
+- **Portfolio Matching**: Accepts a CSV of your skills, years of experience, proficiency levels, and project count to match against job requirements.
+- **LLM Integration**: Uses a Groq-hosted language model to:
+  - Summarize job roles
+  - Compare job skills with user portfolio
+  - Generate 10+ tailored technical, behavioral, and role-specific interview questions
+  - Provide actionable preparation tips
+- **Graphical Interface**: Built using `tkinter` for ease of use.
+- **JSON + Text Export**: Save analysis results in structured or readable format.
+
+---
+
+You can now scroll down to see [Setup Instructions](#setup-instructions) to get started.
 ---
 
 ## Setup Instructions
