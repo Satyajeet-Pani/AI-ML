@@ -30,8 +30,8 @@ class JobAnalyzerApp:
         try:
             self.llm = ChatGroq(
                 temperature=0,
-                groq_api_key="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",
-                model_name="llama-3.3-70b-versatile"
+                groq_api_key="YOUR_GROQ_API_HERE",
+                model_name="llama-3.3-70b-versatile" 
             )
         except Exception as e:
             messagebox.showerror("LLM Error", f"Failed to initialize LLM: {str(e)}")
@@ -401,7 +401,7 @@ class JobAnalyzerApp:
 
         matching = skills_match.get('matching_skills', [])
         if matching:
-            output.append(f"✅ Matching Skills: {', '.join(matching)}")
+            output.append(f"Matching Skills: {', '.join(matching)}")
 
         missing = skills_match.get('missing_skills', [])
         if missing:
