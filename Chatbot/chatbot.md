@@ -1,6 +1,7 @@
-# Hacking Book Chatbot
+# CyberSec Chatbot
 
-A context-aware, book-trained chatbot built using cutting-edge NLP techniques. This project utilizes natural language processing to provide intelligent and relevant answers from a curated collection of hacking and cybersecurity books sourced from [tanc7/hacking-books](https://github.com/tanc7/hacking-books).
+> A context-aware, book-trained chatbot that intelligently answers cybersecurity questions using NLP and embeddings.  
+> Powered by **Gemini**, and trained on a curated collection of hacking books from [tanc7/hacking-books](https://github.com/tanc7/hacking-books).
 
 ## Dataset
 
@@ -25,7 +26,7 @@ Books were preprocessed, cleaned, chunked, and embedded to enable semantic searc
 - **Backend**: Python  
 - **Interface**: CLI (Streamlit optional for GUI)
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the repository
 
