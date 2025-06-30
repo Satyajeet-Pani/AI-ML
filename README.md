@@ -18,7 +18,18 @@ Each project is structured in its own folder, with detailed documentation and co
 - Matches with user's portfolio
 - Generates interview questions and tips using AI
 
-More details in the [PrepMe README](./PrepMe/PrepMe.md)
+> See the [PrepMe README](./PrepMe/PrepMe.md) for details and usage.
+
+### [CyberSec Chatbot](./Chatbot)
+
+> A context-aware chatbot trained on a curated collection of hacking and cybersecurity books, enabling intelligent, book-driven Q&A.
+
+- Semantic search over technical content using embeddings
+- Trained on books from [tanc7/hacking-books](https://github.com/tanc7/hacking-books)
+- Uses both OpenAI and Gemini for response generation
+- Answer cybersecurity-related questions like buffer overflows, SQL injection, etc.
+
+> See the [Chatbot README](./Chatbot/chatbot.md) for details and usage.
 
 ---
 
@@ -26,7 +37,7 @@ More details in the [PrepMe README](./PrepMe/PrepMe.md)
 
 - Python
 - Pandas, Requests, BeautifulSoup
-- LangChain, Groq API
+- LangChain, Groq API, HuggingFace API, Gemini API, Pinecone
 - Selenium + Edge WebDriver
 - Tkinter (for GUI)
 - Matplotlib / Sklearn / Torch (in other projects)
