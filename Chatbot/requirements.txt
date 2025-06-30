@@ -1,10 +1,22 @@
-ctransformers==0.2.5
-sentence-transformers
-pinecone-client==3.1.0
-langchain==0.0.225
-langchain-google-genai
-pinecone-notebooks==0.1.1
-pypdf
+# sentence-transformers
+# langchain
+# flask
+# pypdf
+# python-dotenv
+# pinecone[grpc]
+# langchain-pinecone
+# langchain_community
+# langchain_experimental
+# langchain-google-genai
+# -e .
+sentence-transformers==2.2.2
+langchain==0.1.16
 flask
+pypdf
 python-dotenv
+pinecone-client==3.0.2
+langchain-pinecone==0.0.3
+langchain-community==0.0.32
+langchain-experimental==0.0.10
+langchain-google-genai==0.0.6
 -e .
